@@ -2,8 +2,10 @@ name: Build Loop
 on:
   schedule:
     - cron: '0 */2 * * *'
+  push:
+  
   workflow_dispatch:
-
+  
 jobs:
   build:
     runs-on: macos-12
