@@ -1,9 +1,9 @@
 name: Build Loop
 on:
-  schedule:
-    - cron: '0 12 * * 5'
-  push:
-  
+#  schedule:
+#    - cron: '0 12 * * 5'
+#  push:
+#  
   workflow_dispatch:
   
 jobs:
